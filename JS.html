@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disruptors' sheet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script>src="Dynamics.js"</script>
+    <style>
+        #zatemnenie {
+          background: rgba(102, 102, 102, 0.5);
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: none;
+        }
+        #okno {
+          width: 400px;
+          height: 300px;
+          text-align: center;
+          padding: 105px;
+          border: 3px solid #0000cc;
+          border-radius: 10px;
+          color: #0000cc;
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          margin: auto;
+          background: rgb(183, 119, 205);
+        }
+        #zatemnenie:target {display: block;}
+        .close {
+          display: inline-block;
+          border: 1px solid #0000cc;
+          color: #5aafce;
+          padding: 0 18px;
+          margin: 100px;
+          text-decoration: none;
+          background: #f2f2f2;
+          font-size: 18pt;
+          cursor:pointer;
+        }
+        .close:hover {background: #e6e6ff;}
+      </style>
+      <style>
+        .rounded-img{
+            box-shadow: rgba(0,0,0,1);
+            box-shadow: 0 0 10px rgba(0,0,0,1);
+            border-radius: 1em;
+        }
+      </style>
+      <style>
+        .margin{
+            margin-bottom: 3%;
+            margin-top: 5%;
+        }
+      </style>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand fw-bolder p-0" href="/">DISRUPTOR</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Values.html" >Рекомендуемые</a>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="JS.html">JS</a>
+                      </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+   <div class="container text-center my-5">
+    <div class="row">
+        <div class="col-lg-6 col-sm-10 mx-auto my-3">
+            <h1 id="head">Survey</h1>
+            <p class = "lead fw-normal my-2" type="p" id ="p">You are going to rate this HTML by Lutiy Proger, but be careful not to make a mistake, then you'll be allowed to insert your tips</p>
+            <div class = "margin">
+                <button class= "btn btn-outline-dark" id ="submit0" type = "submit">1-5</button>
+                <button class= "btn btn-outline-dark" id ="submit1" type = "submit">5-7</button>
+                <button class= "btn btn-outline-dark" id ="submit2" type = "submit">8-10</button>
+                <button class= "btn btn-outline-dark" id ="submit3" type = "submit">10+</button>
+            </div>
+        </div>
+        <div class="container my-3">
+            <div class="row">
+                <div class="col-lg-6 col-sm-10 mx-auto">
+                    <div>
+                        <img src="" id = "img" class ="rounded-img" class="card-img-top" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+   </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="Dynamics.js"></script>
+</body>
+</html>
+
